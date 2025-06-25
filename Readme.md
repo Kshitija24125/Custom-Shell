@@ -1,4 +1,4 @@
-# Custom Shell 
+## Custom Shell 
 
 A minimalist command-line shell written in **C**, built from scratch with raw terminal input handling, smart command autocomplete using a **Trie**
 
