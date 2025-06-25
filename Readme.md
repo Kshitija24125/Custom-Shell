@@ -11,10 +11,9 @@ A minimalist command-line shell written in **C**, built from scratch with raw te
 
 - **Raw Terminal Input**
   - Fully manual input reading using `termios`.
-  - Supports `Backspace`, `Tab`, and arrow keys (↑/↓ for history).
+  - Supports `Backspace`, `Tab`.
 
 -  **Command History**
-  - Navigate through previous commands with ↑ / ↓.
   - Easy to extend for persistent history storage.
 
 -  **Built-in Commands**
