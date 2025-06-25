@@ -2,7 +2,6 @@
 
 A minimalist command-line shell written in **C**, built from scratch with raw terminal input handling, smart command autocomplete using a **Trie**, and arrow-key based command history — no `readline()` dependency required!
 
----
 
 ##  Features
 
