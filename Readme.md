@@ -1,12 +1,12 @@
-## Custom Shell 
+Custom Shell 
 
 A minimalist command-line shell written in **C**, built from scratch with raw terminal input handling, smart command autocomplete using a **Trie**
 
-##  Features
+ Features
 
 - **Trie-based Autocomplete**
   - Suggests matching commands as you type.
-  - Inline gray suggestion (like Zsh or Fish).
+  - Inline gray suggestion 
   - Press `Tab` to auto-complete when only one match exists.
 
 - **Raw Terminal Input**
@@ -24,23 +24,23 @@ A minimalist command-line shell written in **C**, built from scratch with raw te
 ##  Project Structure
 ```sh
 CUSTOM_SHELL/
-├── include/ # Header files
+├── include/ 
 │ ├── raw_input.h
 │ ├── readline_init.h
 │ ├── shell.h
 │ └── trie.h
 │
-├── src/ # C source files
-│ ├── autocomplete.c # Completion logic
-│ ├── builtins.c # Built-in commands
-│ ├── execute.c # Command execution
-│ ├── history.c # Command history logic
-│ ├── init.c # Shell init
-│ ├── main.c # Shell entry point
-│ ├── parse.c # Argument parsing
-│ ├── raw_input.c # Raw input handling (termios)
-│ ├── readline_init.c # Autocomplete init
-│ └── trie.c # Trie implementation
+├── src/ 
+│ ├── autocomplete.c
+│ ├── builtins.c 
+│ ├── execute.c
+│ ├── history.c 
+│ ├── init.c 
+│ ├── main.c 
+│ ├── parse.c
+│ ├── raw_input.c 
+│ ├── readline_init.c 
+│ └── trie.c 
 │
 ├── .gitignore
 ├── Makefile
