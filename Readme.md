@@ -1,4 +1,27 @@
 ## Custom Shell 
+
+A minimalist command-line shell written in **C**, built from scratch with raw terminal input handling, smart command autocomplete using a **Trie**
+
+##  Features
+
+- **Trie-based Autocomplete**
+  - Suggests matching commands as you type.
+  - Inline gray suggestion (like Zsh or Fish).
+  - Press `Tab` to auto-complete when only one match exists.
+
+- **Raw Terminal Input**
+  - Fully manual input reading using `termios`.
+  - Supports `Backspace`, `Tab`.
+
+-  **Command History**
+  - Easy to extend for persistent history storage.
+
+-  **Built-in Commands**
+    cd, pwd, echo, exit, history
+    touch, mkdir, cat, head, tail
+    chmod, ls, clear, help
+
+##  Project Structure
 ```sh
 CUSTOM_SHELL/
 ├── include/ # Header files
@@ -22,28 +45,4 @@ CUSTOM_SHELL/
 ├── .gitignore
 ├── Makefile
 └── README.md
-A minimalist command-line shell written in **C**, built from scratch with raw terminal input handling, smart command autocomplete using a **Trie**
-
-##  Features
-
-- **Trie-based Autocomplete**
-  - Suggests matching commands as you type.
-  - Inline gray suggestion (like Zsh or Fish).
-  - Press `Tab` to auto-complete when only one match exists.
-
-- **Raw Terminal Input**
-  - Fully manual input reading using `termios`.
-  - Supports `Backspace`, `Tab`.
-
--  **Command History**
-  - Easy to extend for persistent history storage.
-
--  **Built-in Commands**
-    cd, pwd, echo, exit, history
-    touch, mkdir, cat, head, tail
-    chmod, ls, clear, help
-
-##  Project Structure
-
-
 
